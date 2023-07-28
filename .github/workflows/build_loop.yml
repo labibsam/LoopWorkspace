@@ -38,9 +38,12 @@ jobs:
           #   the line following a "\" cannot be blank - that causes the Action to never complete
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          omnipod_cage \
           dexcom_sage \
           dexcom_upload_readings \
+          future_carbs_4h \
           override_sens \
+          limit_loop_cycle_time \
           lnl_icon \
           customtypeone_looppatches \
           2002 \
